@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Prism Effect Slider | Demo 2</title>
+    <meta name="description" content="Prism slider using canvas globalCompositeOperation" />
+    <meta name="keywords" content="prism, images, globalCompositeOperation, canvas, demo, web design, slider" />
+    <meta name="author" content="Claudio Calautti for Codrops" />
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <!--主要样式-->
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <!--[if IE]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body class="demo-2">
+    <div class="container">
+        <header class="codrops-header">
+            <h1>Prism Effect Slider | Demo 2</h1>
+            <nav class="codrops-demos">
+                <a href="index.html">Diamond</a>
+                <a class="current-demo" href="index2.html">Penrose Triangle</a>
+                <a href="index3.html">Impossible Cube</a>
+            </nav>
+        </header>
+        <div class="content">
+            <!-- Start Demo -->
+            <div class="cache">
+                <!-- masks -->
+                <img src="img/masks/triangle-a.svg">
+                <img src="img/masks/triangle-b.svg">
+                <img src="img/masks/triangle-c.svg">
+                <!-- photos -->
+                <img src="img/graffiti-a.jpg">
+                <img src="img/graffiti-b.jpg">
+                <img src="img/graffiti-c.jpg">
+            </div>
+            <div class="wrapper">
+                <div class="prism-slider">
+                    <ul class="navigation"></ul>
+                </div>
+                <div class="copy">
+                    <article>
+                        <h2>Graffiti Art</h2>
+                        <p>
+                            Graffiti is writing or drawings that have been scribbled, scratched, or sprayed illicitly on a wall or other surface, often in a public place.
+                        </p>
+                        <p>
+                            Graffiti ranges from simple written words to elaborate wall paintings, and it has existed since ancient times, with examples dating back to Ancient Egypt, Ancient Greece, and the Roman Empire.
+                        </p>
+                    </article>
+                </div>
+            </div>
+            <!-- End Demo -->
+        </div>
+    </div>
+    <!-- /container -->
+    <!-- JS -->
+    <script src="js/utils/rAF.js"></script>
+    <script src="js/utils/easing.js"></script>
+    <script src="js/PrismSlider.js"></script>
+    <script src="js/slideshow2.js"></script>
+</body>
+
+</html>
