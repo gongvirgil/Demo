@@ -18,6 +18,10 @@
 
 > 3D球面风格 [查看->](http://gongvirgil.github.io/Demo/TagCloud/3d-sphere.html)
 
+##随机移动动画
+
+[查看->](http://gongvirgil.github.io/Demo/RandomMove/)
+
 ##粒子动画
 
 粒子动画 [查看->](http://gongvirgil.github.io/Demo/DotsAnimate/)
