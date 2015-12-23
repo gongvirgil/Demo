@@ -14,3 +14,15 @@
 
 ##TagCloud
 
+=======
+##粒子动画
+
+粒子动画 [查看->](http://gongvirgil.github.io/Demo/DotsAnimate/)
+
+##棱镜滑块效果
+
+> Diamond [查看->](http://gongvirgil.github.io/Demo/PrismEffectSlider/index.html)
+
+> Penrose Triangle [查看->](http://gongvirgil.github.io/Demo/PrismEffectSlider/index2.html)
+
+> Impossible Cube [查看->](http://gongvirgil.github.io/Demo/PrismEffectSlider/index3.html)
