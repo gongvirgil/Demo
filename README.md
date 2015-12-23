@@ -16,6 +16,8 @@
 
 > 彩色按钮风格 [查看->](http://gongvirgil.github.io/Demo/TagCloud/)
 
+> 3D球面风格 [查看->](http://gongvirgil.github.io/Demo/TagCloud/3d-sphere.html)
+
 ##粒子动画
 
 粒子动画 [查看->](http://gongvirgil.github.io/Demo/DotsAnimate/)
