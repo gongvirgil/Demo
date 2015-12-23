@@ -23,7 +23,7 @@ window.onload=function ()
     var i=0;
     var oTag=null;
     
-    oDiv=document.getElementById('div1');
+    oDiv=document.getElementById('sphere');
     
     aA=oDiv.getElementsByTagName('a');
     
