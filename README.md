@@ -14,7 +14,7 @@
 
 ##TagCloud
 
-=======
+> 彩色按钮风格 [查看->](http://gongvirgil.github.io/Demo/TagCloud/)
 
 ##粒子动画
 
@@ -22,7 +22,7 @@
 
 ##棱镜滑块效果
 
-> Diamond [查看->](http://gongvirgil.github.io/Demo/PrismEffectSlider/index.html)
+> Diamond [查看->](http://gongvirgil.github.io/Demo/PrismEffectSlider/)
 
 > Penrose Triangle [查看->](http://gongvirgil.github.io/Demo/PrismEffectSlider/index2.html)
 
