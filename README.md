@@ -12,6 +12,10 @@
 
 传统色彩，[查看->](http://gongvirgil.github.io/Demo/ColorPick/)
 
+##抽奖
+
+> Canvas转盘抽奖，[查看->](http://gongvirgil.github.io/Demo/Lottery/)
+
 ##TagCloud
 
 > 彩色按钮风格 [查看->](http://gongvirgil.github.io/Demo/TagCloud/)
