@@ -37,3 +37,7 @@
 > Penrose Triangle [查看->](http://gongvirgil.github.io/Demo/PrismEffectSlider/index2.html)
 
 > Impossible Cube [查看->](http://gongvirgil.github.io/Demo/PrismEffectSlider/index3.html)
+
+##音乐播放器
+
+> APlayer [查看->](http://gongvirgil.github.io/Demo/MusicPlayer/)
