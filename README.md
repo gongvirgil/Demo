@@ -6,11 +6,11 @@
 
 ##Canvas雷达动画图
 
-个人技能展示，[查看->](http://gongvirgil.github.io/Demo/Radar/)
+> 个人技能展示，[查看->](http://gongvirgil.github.io/Demo/Radar/)
 
 ##ColorPick
 
-传统色彩，[查看->](http://gongvirgil.github.io/Demo/ColorPick/)
+> 传统色彩，[查看->](http://gongvirgil.github.io/Demo/ColorPick/)
 
 ##抽奖
 
@@ -24,11 +24,11 @@
 
 ##随机移动动画
 
-[查看->](http://gongvirgil.github.io/Demo/RandomMove/)
+> 随机移动动画[查看->](http://gongvirgil.github.io/Demo/RandomMove/)
 
 ##粒子动画
 
-粒子动画 [查看->](http://gongvirgil.github.io/Demo/DotsAnimate/)
+> 粒子动画 [查看->](http://gongvirgil.github.io/Demo/DotsAnimate/)
 
 ##棱镜滑块效果
 
