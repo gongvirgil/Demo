@@ -22,6 +22,8 @@
 
 > 3D球面风格 [查看->](http://gongvirgil.github.io/Demo/TagCloud/3d-sphere.html)
 
+> wordbox [查看->](http://gongvirgil.github.io/Demo/TagCloud/wordbox.html)
+
 ##随机移动动画
 
 > 随机移动动画[查看->](http://gongvirgil.github.io/Demo/RandomMove/)
