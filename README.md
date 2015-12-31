@@ -43,3 +43,7 @@
 ##音乐播放器
 
 > APlayer [查看->](http://gongvirgil.github.io/Demo/MusicPlayer/)
+
+##幻灯
+
+> jQuery幻灯-miSlider [查看->](http://gongvirgil.github.io/Demo/Slider/)
