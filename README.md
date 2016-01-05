@@ -28,6 +28,10 @@
 
 > 简单小圆点时间轴 [查看->](http://gongvirgil.github.io/Demo/TimeLine/index1.html)
 
+##页面切换特效
+
+>HTML5 SVG超酷雷达扫描式页面切换 [查看->](http://gongvirgil.github.io/Demo/PageRotate/)
+
 ##随机移动动画
 
 > 随机移动动画[查看->](http://gongvirgil.github.io/Demo/RandomMove/)
