@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML5 SVG超酷雷达扫描式页面切换</title>
+    <title>G-Q | GongVirgil's RESUME</title>
+    <link rel="shortcut icon" href="/public/images/favicon.ico" type="image/x-icon" />
+    <meta name="description" content="G-Q,GongVirgil's RESUME,若问生涯原是梦，除梦里，没人知。,莫离,莫离君的博客" />
+    <meta name="keywords" content="G-Q,GongVirgil's RESUME,莫离,ppmoli,琵琶莫离" />
     <!--主要样式-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!--[if IE]>
@@ -19,7 +22,7 @@
         <div class="page page-1 active">
             <div class="page--rotater"></div>
             <div class="page--content">
-                <h1>Page 1</h1>
+                <h1>About</h1>
             </div>
         </div>
         <!-- page end -->
@@ -27,7 +30,7 @@
         <div class="page page-2">
             <div class="page--rotater"></div>
             <div class="page--content">
-                <h1>Page 2</h1>
+                <h1>Skills</h1>
             </div>
         </div>
         <!-- page end -->
@@ -35,7 +38,7 @@
         <div class="page page-3">
             <div class="page--rotater"></div>
             <div class="page--content">
-                <h1>Page 3</h1>
+                <h1>Demos</h1>
             </div>
         </div>
         <!-- page end -->
@@ -43,7 +46,7 @@
         <div class="page page-4">
             <div class="page--rotater"></div>
             <div class="page--content">
-                <h1>Page 4</h1>
+                <h1>Contact</h1>
             </div>
         </div>
         <!-- page end -->
@@ -51,16 +54,16 @@
         <div class="page page-5">
             <div class="page--rotater"></div>
             <div class="page--content">
-                <h1>Page 5</h1>
+                <h1>Links</h1>
             </div>
         </div>
         <!-- page end -->
         <div class="rt-point">
-            <span class="page-number page-number-1 active">1</span>
-            <span class="page-number page-number-2">2</span>
-            <span class="page-number page-number-3">3</span>
-            <span class="page-number page-number-4">4</span>
-            <span class="page-number page-number-5">5</span>
+            <span class="page-number page-number-1 active">About</span>
+            <span class="page-number page-number-2">Skills</span>
+            <span class="page-number page-number-3">Demos</span>
+            <span class="page-number page-number-4">Contact</span>
+            <span class="page-number page-number-5">Links</span>
         </div>
         <!-- footer start -->
         <div class="footer">
@@ -79,7 +82,8 @@
     <script type="text/javascript" src='js/stopExecutionOnTimeout.js?t=1'></script>
     <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
     <script type="text/javascript" src='js/velocity.min.js'></script>
-    <script type="text/javascript">
+
+</body>    <script type="text/javascript">
     $(document).ready(function() {
         var $page = $('.page'),
             pages = $page.length,
@@ -146,7 +150,7 @@
             } else {
                 svgPagination(prevPage, curPage, numDir, numDirRev);
             }
-            $('.page-number').css('transform', 'translateX(-' + (page - 1) * 5 + 'rem)');
+            $('.page-number').css('transform', 'translateX(-' + (page - 1) * 15 + 'rem)');
             if (direction === 'down') {
                 $prevActive.addClass('removing down');
             }
@@ -320,6 +324,5 @@
         createSvg(0, 1, 1);
     });
     </script>
-</body>
 
 </html>
