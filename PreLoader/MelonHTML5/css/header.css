@@ -1,0 +1,57 @@
+/* Header */
+
+body {
+    margin: 0px;
+    padding-bottom: 50px;
+    font-size: 100%;
+    background: #EEEEEE;
+    background-attachment: fixed;
+}
+
+#header {
+    z-index: 1000;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    font-family: Arial;
+    box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+    -webkit-animation: footer 0.8s;
+    -moz-animation: footer 0.8s;
+    -ms-animation: footer 0.8s;
+    -o-animation: footer 0.8s;
+    animation: footer 0.8s;
+}
+
+#demo_links {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 10px;
+}
+
+#demo_links a {
+    outline: none;
+    display: block;
+    float: left;
+    height: 100%;
+    line-height: 50px;
+    font-size: 0.6em;
+    text-decoration: none;
+    padding: 0px 10px;
+    text-transform: uppercase;
+    color: #888888;
+}
+
+#demo_links a:hover {
+    background-color: #EEEEEE;
+}
+
+#demo_links a.active,
+#demo_links a.active:hover {
+    background-color: #0F6FAA;
+    color: #FFFFFF;
+    cursor: default;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MelonHTML5 - Royal Preloader</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/royal_preloader.css" />
+    <link rel="stylesheet" type="text/css" href="css/header.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo_mobile.css" media="screen and (max-width: 950px)" />
+    <link rel="stylesheet" type="text/css" href="css/demo_mobile.css" media="screen and (orientation:portrait)" />
+    <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/royal_preloader.min.js"></script>
+    <script type="text/javascript" src="js/demo.js"></script>
+    <script type="text/javascript">
+    Royal_Preloader.config({
+        mode: 'progress',
+        background: '#262D33'
+    });
+    </script>
+</head>
+
+<body class="royal_preloader">
+    <div id="header">
+        <div id="demo_links">
+            <a href="index.html">Text</a>
+            <a href="progress.html" class="active">Progress</a>
+            <a href="number.html">Number</a>
+            <a href="logo.html">Logo</a>
+            <a href="scale_text.html">Scale Text</a>
+            <a href="line.html">Line</a>
+        </div>
+    </div>
+    <div id="royal_preloader"></div>
+    <div id="main">
+        <div class="page_box">
+            <div class="wrapper">
+                <div id="loader_example4">
+                    <div class="loader">
+                        <div></div>
+                    </div>
+                    <div class="percentage">0</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

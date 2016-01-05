@@ -1,0 +1,35 @@
+img {
+    max-width: 100%;
+}
+
+.page_box,
+.page_box_full {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 60px;
+    width: auto;
+    height: auto;
+    margin: 0;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.page_box_full a.preview {
+    float: none;
+    width: auto;
+    height: auto;
+    margin: 0 0 15px 0;
+}
+
+.page_box_full a.preview:nth-child(odd) {
+    margin-right: 0;
+}
+
+#loader_example2 span.text_loader {
+    font-size: 14px;
+}
