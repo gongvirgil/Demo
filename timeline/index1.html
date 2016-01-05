@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>简单小圆点时间轴</title>
+</head>
+
+<body>
+    <div class="dot">
+        <div class="dot_ch">转眼青春的散场</div>
+        <div class="dot_main">
+            <div class="line"></div>
+            <ul>
+                <li>青春的字眼慢慢的觉得陌生，年轮总是很轻易的烙下苍老的印记。以为总是长久的东西，其实，就在转神与刹那间便不在身边了。曾经深爱、思念着的人便轻易的变成了曾经熟悉的陌生人。曾经纯真无邪，曾经美丽梦想，随着四季轮回慢慢的散尽……这就是青春，在岁月里的转身，从一个熟悉到另外一个陌生，再从陌生转变到熟悉，直至一场场的青春的帷幕渐渐的落幕。在青春的酸甜苦乐里稚气里的幻想慢慢的褪去。</li>
+                <li>人就是这样一种奇怪的动物，拥有的时候厌倦，失去回首的时候才酸痛。得到了很多，失去的也不少，只是希望抵达安详的心灵。很喜欢小孩，因为他们有着人类心灵最纯正的东西，他们的人性是最美的。喜欢亲近老人，因为可以感触到他们心灵的平静，脸庞的安详，也许生活对于他们而言就是尽量的用最舒适的方式过完余生。喜欢猫，只因为他们的慵懒而自在，有一种踏实感。</li>
+                <li>生命里太多的东西太容易的散去与破碎，所以，学会了习惯性的冷漠与淡然，也许，更多的时候我们更愿意相信自己，不愿随便的托付，因为生活里，没有永远的唯一，所有的东西终究有一天都会离我们而去。有时不是世界抛弃了我们，是我们自己先抛弃了世界，因为我们学会了习惯性的否定，习惯性的抵制而让许多的东西擦肩而过。­太多的时候，我们自己更愿意相信是生活伤害了我们，而不愿去接受是自己的缺失伤了自己。</li>
+                <li>总是在很无力着，因为我们年轻，年轻的只有活力与时间。我们总想设法的去改变自己的命运，设法的让身边亲近的人过的更幸福一点，设法着哪一天可以抵达理想的彼岸，设法着让自己拥有幸福的感情，可是，发现很多东西是那么的难，所有的东西要实现不是一阵子而是一辈子的事，一辈子太长，很多的东西容易变质，谁也没有办法保证永远。所以，更多的时候沉默也许是自己回答所有的最好方式，既然承诺不了，何必多言，万事还需自己努力的经营。</li>
+                <li>转眼的青春留在心底太多的东西。生活，就像手心里的鸡蛋总是小心翼翼着，应该珍惜着每一份真诚与感动，好的东西最容易擦肩而过了。尽量原谅每一个谎言，­生活中谁没有过谎言。适者安生，不忍心看到流泪的双眼，学会微笑，乐观的生活。</li>
+            </ul>
+        </div>
+    </div>
+    <style>   
+    body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, th, td {margin: 0; padding: 0; font-family: Arial, "微软雅黑"; }
+    body {font-size: 12px; color: #666; font-family: Arial, "微软雅黑"; background: #fff; }
+    fieldset, img {border: 0; } /*在ie6下面，只要给插入图片加了链接，就会出现小边框*/
+    ol, ul {list-style: none; }
+    h1, h2, h3, h4, h5, h6 {font-size: 100%; }
+    em {font-style: normal; }
+    input, button, select, textarea {outline: none; }
+    textarea {resize: none; }
+    a {color: #616161; text-decoration: none; text-decoration: none; }
+    .clearfix:before, .clearfix:after {display: table; content: ""; }
+    .clearfix:after {clear: both; }
+    .clearfix {zoom: 1; }
+
+    .dot {
+        width: 648px;
+        margin: 40px auto 0 auto;
+    }
+    
+    .dot_ch {
+        font-size: 18px;
+        color: #d80017;
+        margin-bottom: 30px;
+    }
+    
+    .dot_main {
+        position: relative;
+        padding-left: 20px;
+        overflow: hidden;
+    }
+    
+    .line {
+        width: 1px;
+        height: 100%;
+        background-color: #999;
+        position: absolute;
+        left: 26px;
+        z-index: -1;
+    }
+    
+    .dot_main ul li {
+        padding-left: 25px;
+        font-size: 14px;
+        color: #666;
+        line-height: 30px;
+        margin-bottom: 30px;
+        background: url(images/dot_icon.png) left center no-repeat;
+    }
+    
+    .dot_main ul li:last-child {
+        margin-bottom: 0px;
+    }
+    </style>
+    <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(e) {
+        var h = $(".dot_main ul li:first-child").height() / 2; /*第一个li高度的一半*/
+        var h1 = $(".dot_main ul li:last-child").height() / 2; /*最后一个li高度的一半*/
+        $(".line").css("top", h);
+        $(".line").height($(".dot_main").height() - h1 - h);
+    });
+    </script>
+</body>
+
+</html>
