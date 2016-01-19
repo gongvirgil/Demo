@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5音乐播放器简单实例</title>
+    <link rel="shortcut icon" href="/public/images/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+    <audio id="audio" src="" loop="loop"></audio>
+    <div id="musicicon" style="position:fixed;top:-100px;left:-100px;width:30px;height:30px;z-index:7;display:none;background-image:url(./images/musicicon.png);"></div>
+    <div id="musicplay" title="停止播放" style="position:fixed;bottom:5px;left:0px;width:50px;height:50px;z-index:6;cursor:pointer;display:none;background-image:url(./images/musicplay.png);"></div>
+    <div id="music_ctl_info">
+        <div id="music_ctl_load" style="width:0%;"></div>
+        <div id="music_ctl_now" style="width:0%;"></div>
+        <div id="music_ctl_name"></div>
+    </div>
+    <style>
+    #music_ctl_info {
+        background-color: #fff;
+        bottom: 0;
+        display: none;
+        height: 5px;
+        left: 0;
+        position: fixed;
+        width: 100%;
+        z-index: 6;
+    }
+    
+    #music_ctl_load {
+        background-color: #3cf;
+        height: 5px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        transition: width 0.5s ease-in-out 0s;
+        z-index: 3;
+    }
+    
+    #music_ctl_now {
+        background-color: #ff0;
+        height: 5px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        z-index: 4;
+    }
+    
+    #music_ctl_name {
+        bottom: 20px;
+        color: #000;
+        font-size: 12px;
+        position: absolute;
+        right: 5px;
+        text-shadow: 1px 1px 1px #ccc;
+        z-index: 5;
+    }
+    </style>
+    <script>
+    try {
+        var name = "[音乐] 南方姑娘";
+        var url = "http://gyiwenku-music.stor.sinaapp.com/1451993454.329844.mp3";
+        audio = document.getElementById("audio");
+        audio.setAttribute("src", url);
+        audio.play();
+        document.getElementById("music_ctl_name").innerHTML = "";
+        document.getElementById("music_ctl_info").style.display = "block";
+        var music_ctl_load = document.getElementById("music_ctl_load");
+        var music_ctl_now = document.getElementById("music_ctl_now");
+        musicInter = setInterval(function() {
+            var tolfen = Math.floor(audio.duration / 60) + ":" + parseInt(audio.duration % 60);
+            var nowfen = Math.floor(audio.currentTime / 60) + ":" + parseInt(audio.currentTime % 60);
+            document.getElementById("music_ctl_name").innerHTML = "正在播放：" + name + " (" + nowfen + " / " + tolfen + ")";
+            music_ctl_load.style.width = audio.buffered.length * 100 + "%";
+            music_ctl_now.style.width = (audio.currentTime / audio.duration) * 100 + "%"
+        }, 200);
+        document.getElementById("musicplay").style.display = "block";
+    } catch (E) {
+        console.log(E);
+        alert("如需播放音乐，请使用支持HTML5的浏览器访问!")
+    }
+    </script>
+</body>
+
+</html>
